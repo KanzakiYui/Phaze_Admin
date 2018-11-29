@@ -1,0 +1,42 @@
+div.PromoContainer{
+    width: 500px;
+}
+div.PromoContainer form{
+    padding: 5px;
+    margin: 10px 0px;
+}
+div.PromoContainer label{
+    display: inline-block;
+    text-align: right;
+    width: 120px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+div.PromoContainer input{
+    width: 300px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+div.PromoContainer p.Error{
+    margin: 1px 0;
+    height: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: red;
+}
+div.PromoContainer p.Result{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 25px;
+    text-align: center;
+}
+div.PromoContainer p.Result>span{
+    font-weight: 700;
+    color: green;
+    margin-left: 10px;
+}
+div.PromoContainer div.Buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
